@@ -1,0 +1,32 @@
+# Local machine state
+.local/
+.gradle/
+.tools/
+local.properties
+device-reports/
+
+# Personal notes and AI working files
+*.codex.md
+CLAUDE.md
+AGENTS.md
+.cursorrules
+scratch*
+notes*.md
+
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+
+# Generated artifacts
+build/
+app/build/
+dist/
+node_modules/
+.next/
+.vercel/
+
+# OS files
+.DS_Store
+Thumbs.db
