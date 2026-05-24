@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WatchGuard VP39</string>
+    <string name="lock_label">LOCK</string>
+    <string name="report_placeholder">Presiona Generar reporte despues de probar el boton fisico.</string>
+    <string name="safe_ime_label">WatchGuard teclado seguro</string>
+    <string name="gpt_automation_accessibility_label">WatchGuard automatizacion GPT</string>
+</resources>

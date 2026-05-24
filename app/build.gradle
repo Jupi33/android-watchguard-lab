@@ -1,0 +1,25 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.codex.watchguard"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.codex.watchguard"
+        minSdk 23
+        targetSdk 28
+        versionCode 73
+        versionName "0.72.0-camera-downmenu-rescue"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lint {
+        disable "ExpiredTargetSdkVersion", "BatteryLife", "LockedOrientationActivity", "DiscouragedApi", "ProtectedPermissions"
+    }
+}
